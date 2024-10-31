@@ -21,3 +21,7 @@ dependencyResolutionManagement {
 
 rootProject.name = "CVPortfolio"
 include(":app")
+
+include(":core:ui")
+
+include("feature:home")
