@@ -59,9 +59,9 @@ fun Content() {
 
     val items = listOf(R.drawable.dev, R.drawable.dev1, R.drawable.dev3)
     val itemsText = listOf(
-        "Conectando tecnologia y creatividad para resolver problemas",
-        "Desarrollando soluciones innovadoras con pasión y dedicación",
-        "Transformando ideas en aplicaciones funcionales"
+        R.string.mesage1,
+        R.string.mesage2,
+        R.string.mesage3
     )
     val pagerState = rememberPagerState(
         initialPage = 0,
@@ -75,7 +75,7 @@ fun Content() {
         }
     }
 
-    
+
     Column(
         modifier = Modifier
             .fillMaxSize(),
@@ -154,7 +154,7 @@ fun Content() {
                         end = PaddingDim.HUGE
                     )
                     .shadow(3.dp, shape = RoundedCornerShape(PaddingDim.EXTRA_LARGE))
-                    .background(color = if (isSystemInDarkTheme()) DarkColors.BluePrimary060 else CVPColors().white)
+                    .background(color = if (isSystemInDarkTheme()) DarkColors.OnSecondary else CVPColors().white)
                     .constrainAs(profile) {
                         top.linkTo(topBox.bottom)
                         bottom.linkTo(topBox.bottom)
@@ -231,7 +231,7 @@ fun Content() {
                         end = PaddingDim.SMALL
                     )
                     .shadow(3.dp, shape = RoundedCornerShape(PaddingDim.EXTRA_LARGE))
-                    .background(color = if (isSystemInDarkTheme()) DarkColors.BluePrimary060 else CVPColors().white)
+                    .background(color = if (isSystemInDarkTheme()) DarkColors.OnSecondary else CVPColors().white)
                     .constrainAs(description) {
                         top.linkTo(parent.top)
                         bottom.linkTo(parent.bottom)
@@ -242,7 +242,7 @@ fun Content() {
                 CVPText(
                     modifier = Modifier
                         .padding(PaddingDim.LARGE),
-                    text = "Mi enfoque principal es crear aplicaciones intuitivas y eficientes utilizando Kotlin y Jetpack Compose, herramientas que me permiten ofrecer experiancias de usuario excepcionales",
+                    text = stringResource(id = R.string.mesage4),
                     maxLines = 6,
                     fontWeight = FontWeight.Bold
                 )
@@ -254,7 +254,7 @@ fun Content() {
                 beyondViewportPageCount = items.size,
                 modifier = Modifier
                     .fillMaxWidth()
-                    .padding(top = PaddingDim.ROW_HEIGHT,)
+                    .padding(top = PaddingDim.ROW_HEIGHT)
                     .constrainAs(bottomCard) {
                         top.linkTo(description.bottom)
                         bottom.linkTo(description.bottom)
@@ -272,19 +272,13 @@ fun Content() {
                             end = PaddingDim.SMALL
                         )
                         .shadow(3.dp, shape = RoundedCornerShape(PaddingDim.EXTRA_LARGE))
-                        .background(color = if (isSystemInDarkTheme()) DarkColors.BluePrimary060 else CVPColors().white)
-//                        .constrainAs(bottomCard) {
-//                            top.linkTo(description.bottom)
-//                            bottom.linkTo(description.bottom)
-//                            start.linkTo(parent.start)
-//                            end.linkTo(parent.end)
-//                        }
+                        .background(color = if (isSystemInDarkTheme()) DarkColors.OnSecondary else CVPColors().white)
                 ) {
                     CVPText(
                         modifier = Modifier
                             .weight(2f)
                             .padding(PaddingDim.SMALL),
-                        text = itemsText[pages],
+                        text = stringResource(id = itemsText[pages]),
                         maxLines = 5,
                         fontWeight = FontWeight.Bold
                     )
@@ -302,7 +296,7 @@ fun Content() {
                         Image(
                             painter = painterResource(items[pages]),
                             contentDescription = "",
-                        contentScale = ContentScale.Crop,
+                            contentScale = ContentScale.Crop,
                             modifier = Modifier
                                 .height(150.dp)
                                 .width(200.dp)
@@ -344,7 +338,8 @@ fun Content() {
                                 .size(100.dp)
                                 .background(
                                     color = DarkColors.OnSecondary,
-                                    shape = RoundedCornerShape(PaddingDim.VERY_LARGE))
+                                    shape = RoundedCornerShape(PaddingDim.VERY_LARGE)
+                                )
 //                            .clip(shape = RoundedCornerShape(PaddingDim.VERY_LARGE))
                         )
                     }
@@ -359,7 +354,8 @@ fun Content() {
                                 .size(100.dp)
                                 .background(
                                     color = DarkColors.OnSecondary,
-                                    shape = RoundedCornerShape(PaddingDim.VERY_LARGE))
+                                    shape = RoundedCornerShape(PaddingDim.VERY_LARGE)
+                                )
 //                            .clip(shape = RoundedCornerShape(PaddingDim.VERY_LARGE))
                         )
                     }
@@ -373,7 +369,8 @@ fun Content() {
                                 .size(100.dp)
                                 .background(
                                     color = DarkColors.OnSecondary,
-                                    shape = RoundedCornerShape(PaddingDim.VERY_LARGE))
+                                    shape = RoundedCornerShape(PaddingDim.VERY_LARGE)
+                                )
 //                            .clip(shape = RoundedCornerShape(PaddingDim.VERY_LARGE))
                         )
                     }
@@ -386,3 +383,4 @@ fun Content() {
 
 
 }
+

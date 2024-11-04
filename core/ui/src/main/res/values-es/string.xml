@@ -13,10 +13,27 @@
     <string name="curriculum">Curriculum</string>
     <string name="route">Ruta</string>
 
+    <string name="portfolio">Portafolio</string>
+
+    <string name="ticket_app">Ticket</string>
+    <string name="jit_app">JIT</string>
+    <string name="porter_app">Portero</string>
+
+
+    <string name="ticket_description">Sistema central de reservacionves en línea de servicios pertenecientes a entidades gubernamentales, privadas o mixtas.</string>
+    <string name="jit_description">Sistema de coordinación y administración de servicios de transporte por acuredo entre usuarios y transportistas, mediante su catalogo de vehiculos.</string>
+    <string name="porter_description">Aplicación diseñada para gestionar el acceso a establecimientos de manera eficiente y segura, simulando las funciones de un portero físico.</string>
+
     <string name="settings">Configuración</string>
     <string name="about">Acerca de</string>
     <string name="about_me">Sobre mi</string>
     <string name="search">Buscar</string>
+
+    <string name="mesage1">Conectando tecnologia y creatividad para resolver problemas</string>
+    <string name="mesage2">Desarrollando soluciones innovadoras con pasión y dedicación</string>
+    <string name="mesage3">Transformando ideas en aplicaciones funcionales</string>
+
+    <string name="mesage4">Mi enfoque principal es crear aplicaciones intuitivas y eficientes utilizando Kotlin y Jetpack Compose, herramientas que me permiten ofrecer experiancias de usuario excepcionales</string>
 
     <!--Greetings-->
     <string name="welcome">Bienvenido</string>

@@ -38,9 +38,6 @@ fun Content() {
 
     Scaffold(
         modifier = Modifier.fillMaxSize(),
-        topBar = {
-
-        },
         bottomBar = {
             CVPNavigationBar(
                 modifier = Modifier.fillMaxWidth(),
@@ -64,11 +61,11 @@ fun Content() {
                         isSelected = selectedBottomAppBarItem == BottomAppBarItem.MYWORKS,
                         label = {
                             CVPText(
-                                text = stringResource(R.string.dashboard)
+                                text = stringResource(R.string.portfolio)
                             )
                         },
                         icon = CVPIcons.Dashboard,
-                        contentDescription = stringResource(id = R.string.dashboard),
+                        contentDescription = stringResource(id = R.string.portfolio),
                         onClick = {
                             selectedBottomAppBarItem = BottomAppBarItem.MYWORKS
                         }

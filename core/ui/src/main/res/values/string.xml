@@ -11,6 +11,25 @@
     <string name="android_developer">Android Developer</string>
     <string name="curriculum">Curriculum</string>
 
+    <string name="portfolio">Portfolio</string>
+
+    <string name="ticket_app">Ticket</string>
+    <string name="jit_app">JIT</string>
+    <string name="porter_app">Portero</string>
+
+    <string name="ticket_description">Central online reservation system for services belonging to governmental, private, or mixed entities.</string>
+    <string name="jit_description">Coordination and management system for transportation services by agreement between users and transport providers, through its vehicle catalog. </string>
+    <string name="porter_description">Application designed to manage access to establishments efficiently and securely, simulating the functions of a physical doorman.</string>
+
+
+    <string name="mesage1">Connecting technology and creativity to solve problems.</string>
+    <string name="mesage2">Developing innovative solutions with passion and dedication.</string>
+    <string name="mesage3">Transforming ideas into functional applications.</string>
+
+    <string name="mesage4">My main focus is to create intuitive and efficient applications using Kotlin and Jetpack Compose, tools that allow me to deliver exceptional user experiences.</string>
+
+
+
     <!--Greetings-->
     <string name="welcome">Welcome</string>
     <string name="greeting_morning_1">Good morning</string>
