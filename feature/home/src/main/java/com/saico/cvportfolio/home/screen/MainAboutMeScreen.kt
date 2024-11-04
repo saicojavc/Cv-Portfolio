@@ -152,7 +152,7 @@ fun Content() {
                         end = PaddingDim.HUGE
                     )
                     .shadow(3.dp, shape = RoundedCornerShape(PaddingDim.EXTRA_LARGE))
-                    .background(color = if (isSystemInDarkTheme()) DarkColors.OnSecondary else CVPColors().white)
+                    .background(color = /*if (isSystemInDarkTheme()) DarkColors.OnSecondary else*/ CVPColors().white)
                     .constrainAs(profile) {
                         top.linkTo(topBox.bottom)
                         bottom.linkTo(topBox.bottom)
@@ -229,7 +229,7 @@ fun Content() {
                         end = PaddingDim.SMALL
                     )
                     .shadow(3.dp, shape = RoundedCornerShape(PaddingDim.EXTRA_LARGE))
-                    .background(color = if (isSystemInDarkTheme()) DarkColors.OnSecondary else CVPColors().white)
+                    .background(color = /*if (isSystemInDarkTheme()) DarkColors.OnSecondary else */CVPColors().white)
                     .constrainAs(description) {
                         top.linkTo(parent.top)
                         bottom.linkTo(parent.bottom)
@@ -270,7 +270,7 @@ fun Content() {
                             end = PaddingDim.SMALL
                         )
                         .shadow(3.dp, shape = RoundedCornerShape(PaddingDim.EXTRA_LARGE))
-                        .background(color = if (isSystemInDarkTheme()) DarkColors.OnSecondary else CVPColors().white)
+                        .background(color = /*if (isSystemInDarkTheme()) DarkColors.OnSecondary else */CVPColors().white)
                 ) {
                     CVPText(
                         modifier = Modifier
