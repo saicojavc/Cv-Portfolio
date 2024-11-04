@@ -25,3 +25,6 @@ include(":app")
 include(":core:ui")
 
 include("feature:home")
+include(":core:model")
+include(":core:domain")
+include(":core:datastore")

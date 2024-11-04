@@ -2,6 +2,8 @@ plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+    alias(libs.plugins.com.dagger.hilt)
+    id("com.google.devtools.ksp")
 }
 
 android {
@@ -34,7 +36,12 @@ android {
 }
 
 dependencies {
+    implementation(project(":core:model"))
+    implementation(libs.transportation.consumer)
+    implementation(libs.androidx.material3.android)
 
+    //Core
+    coreLibraryDesugaring(libs.com.android.tools.desugar)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
@@ -44,4 +51,18 @@ dependencies {
 
     implementation(libs.androidx.activity.compose)
     implementation(platform(libs.androidx.compose.bom))
+
+    //Icons -> https://fonts.google.com/icons
+    api(libs.androidx.icons.extended)
+
+    //Navigation jetpack compose
+    api(libs.androidx.navigation.compose.ktx)
+    api(libs.androidx.hilt.navigation.compose)
+
+    //hilt
+    implementation(libs.com.google.dagger.hilt.android)
+    ksp(libs.com.google.dagger.hilt.compiler)
+
+    api(libs.io.coil.kt)
+
 }

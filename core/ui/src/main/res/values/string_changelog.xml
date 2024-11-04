@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="change_log_010_version" translatable="false">0.1.0</string>
+    <string name="change_log_010_date" translatable="false">20/10/2023</string>
+    <string name="change_log_010_changes">• Initial release.</string>
+
+</resources>
