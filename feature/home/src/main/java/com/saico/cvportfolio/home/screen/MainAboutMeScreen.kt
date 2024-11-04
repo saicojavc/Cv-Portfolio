@@ -1,5 +1,3 @@
-@file:Suppress("UNREACHABLE_CODE")
-
 package com.saico.cvportfolio.home.screen
 
 import androidx.compose.foundation.Image
