@@ -4,10 +4,8 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
-import androidx.compose.material.icons.rounded.ContactMail
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -34,7 +32,7 @@ fun HomeScreen(navController: NavHostController) {
 }
 
 @Composable
-fun Content(){
+fun Content() {
 
     var selectedBottomAppBarItem by remember { mutableStateOf(BottomAppBarItem.ABOUTME) }
 
@@ -105,25 +103,28 @@ fun Content(){
                 }
             )
         }
-    ){ paddingValues ->
+    ) { paddingValues ->
 
         Row {
-            when(selectedBottomAppBarItem){
+            when (selectedBottomAppBarItem) {
                 BottomAppBarItem.ABOUTME -> {
                     MainAboutMeScreen(
                         modifier = Modifier.padding(paddingValues)
                     )
                 }
+
                 BottomAppBarItem.MYWORKS -> {
                     MainMyWorksScreen(
                         modifier = Modifier.padding(paddingValues)
                     )
                 }
+
                 BottomAppBarItem.CURRICULUM -> {
                     MainCurriculumScreen(
                         modifier = Modifier.padding(paddingValues)
                     )
                 }
+
                 BottomAppBarItem.CONTACT -> {
                     MainContactScreen(
                         modifier = Modifier.padding(paddingValues)

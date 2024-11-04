@@ -84,7 +84,7 @@ fun Content() {
         ConstraintLayout(
             modifier = Modifier.fillMaxSize()
         ) {
-            val (topBox, userImg, profile, description, bottomCard, proyects) = createRefs()
+            val (topBox, profile, description, bottomCard, proyects) = createRefs()
 
             Box(
                 modifier = Modifier
