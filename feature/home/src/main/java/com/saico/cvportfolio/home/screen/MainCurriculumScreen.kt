@@ -38,6 +38,7 @@ import com.saico.cvportfolio.ui.component.CVPCard
 import com.saico.cvportfolio.ui.component.CVPText
 import com.saico.cvportfolio.ui.component.CVPTooltipIconButton
 import com.saico.cvportfolio.ui.icon.CVPIcons
+import com.saico.cvportfolio.util.formatStringResource
 
 @Composable
 fun MainCurriculumScreen(
@@ -353,7 +354,3 @@ fun CurriculumContent() {
     }
 }
 
-fun formatStringResource(input: String): String {
-    return input.replace("•", "\n•")
-        .trim() // Reemplaza cada '•' por un salto de línea seguido de '•'
-}

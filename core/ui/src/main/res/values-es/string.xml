@@ -16,6 +16,9 @@
     <string name="summary">Resumen</string>
     <string name="summary_description">Soy un profesional calificado como Ingeniero en Informática por la Universidad Central Marta Abreu de Las Villas, Cuba, y cuento con una destacada trayectoria en el campo de la informática y el desarrollo de software. He trabajado en diversas áreas de la ingeniería informática, incluyendo el diseño de sistemas y la implementación de soluciones tecnológicas. He tenido la oportunidad de participar en todas las etapas del ciclo de vida del desarrollo de software, desde la conceptualización y planificación hasta la implementación y mantenimiento. He dirigido, trabajado y colaborado en proyectos de desarrollo de aplicaciones y optimización de sistemas informáticos.</string>
 
+    <string name="subject">Asunto:</string>
+    <string name="content">Contenido:</string>
+
     <string name="skills">Habilidades</string>
     <string name="skills1"> • Dominio de Kotlin</string>
     <string name="skills2"> • Experiencia con Jetpack Compose</string>
@@ -129,7 +132,7 @@ Entre sus principales funcionalidades está la reservación en los días y turno
     <string name="with_login">Iniciar Sesión con:</string>
     <string name="hide_password">Ocultar contraseña</string>
     <string name="show_password">Mostrar contraseña</string>
-    <string name="send">Enviar</string>
+    <string name="send_mail">Enviar Email</string>
     <string name="invalid_email">Correo no válido</string>
     <string name="invalid_login">Información de sesion inválida</string>
     <string name="recovery">Recuperar</string>
@@ -271,7 +274,7 @@ Entre sus principales funcionalidades está la reservación en los días y turno
     <string name="work_completed">Trabajo Completado</string>
     <string name="work_canceled">Trabajo Cancelado</string>
 
-    <string name="contact_me">Contame</string>
+    <string name="contact_me">Contáctame</string>
 
 
     <!--    Events-->

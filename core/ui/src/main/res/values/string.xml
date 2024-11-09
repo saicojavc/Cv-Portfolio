@@ -13,7 +13,8 @@
 
     <string name="summary">Summary</string>
     <string name="summary_description">I am a qualified professional with a degree in Computer Engineering from the Central University Marta Abreu of Las Villas, Cuba, and I have a distinguished track record in the field of computer science and software development. I have worked in various areas of computer engineering, including system design and the implementation of technological solutions. I have had the opportunity to participate in all stages of the software development life cycle, from conceptualization and planning to implementation and maintenance. I have led, worked on, and collaborated in application development projects and optimization of IT systems.</string>
-
+    <string name="subject">Subject:</string>
+    <string name="content">Content:</string>
 
     <string name="skills">Skills</string>
 
@@ -194,7 +195,7 @@ Among its main functionalities is the reservation in the days and shifts of pref
     <string name="default_empty_title">Ups!</string>
     <string name="default_empty_subtitle">No items found to display.</string>
 
-    <string name="send">Send</string>
+    <string name="send_mail">Send Email</string>
     <string name="invalid_email">Invalid email</string>
     <string name="invalid_login">Invalid login information</string>
     <string name="required_field">Required field</string>
