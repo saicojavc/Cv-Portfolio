@@ -75,6 +75,7 @@ dependencies {
     implementation(libs.androidx.lifecycle.runtime.compose.android)
     implementation(project(":core:ui"))
     implementation(project(":feature:home"))
+    implementation(project(":feature:myworks"))
 //    implementation(libs.androidx.lifecycle.runtime.compose.jvmstubs)
 //    implementation(libs.androidx.lifecycle.runtime.compose.desktop)
     coreLibraryDesugaring(libs.com.android.tools.desugar)

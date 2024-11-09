@@ -22,6 +22,9 @@ import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.rememberNavController
 import com.saico.cvportfolio.home.navigation.homeGraph
+import com.saico.cvportfolio.myworks.navigation.jitGraph
+import com.saico.cvportfolio.myworks.navigation.porterGraph
+import com.saico.cvportfolio.myworks.navigation.ticketGraph
 import com.saico.cvportfolio.navigation.Navigator
 import com.saico.cvportfolio.navigation.NavigatorHandler
 import com.saico.cvportfolio.splash.SplashScreen
@@ -101,6 +104,12 @@ private fun MainContainer(
         ) {
 
             homeGraph(navController)
+
+            ticketGraph(navController)
+
+            jitGraph(navController)
+
+            porterGraph(navController)
 
 
         }

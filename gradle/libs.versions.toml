@@ -44,6 +44,8 @@ kt-android-plugin-version = "2.0.0"
 ksp = "2.0.0-1.0.22"
 
 io-coil-kt = "2.4.0"
+navigationRuntimeKtx = "2.8.3"
+foundationLayoutAndroid = "1.6.6"
 
 [libraries]
 
@@ -102,6 +104,8 @@ ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
 ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
 ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
 androidx-icons-extended = { group = "androidx.compose.material", name = "material-icons-extended" }
+androidx-navigation-runtime-ktx = { group = "androidx.navigation", name = "navigation-runtime-ktx", version.ref = "navigationRuntimeKtx" }
+androidx-foundation-layout-android = { group = "androidx.compose.foundation", name = "foundation-layout-android", version.ref = "foundationLayoutAndroid" }
 
 
 [plugins]

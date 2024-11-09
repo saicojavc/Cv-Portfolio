@@ -15,14 +15,21 @@
 
     <string name="portfolio">Portafolio</string>
 
+    <string name="gallery">Galeria</string>
+
     <string name="ticket_app">Ticket</string>
     <string name="jit_app">JIT</string>
     <string name="porter_app">Portero</string>
 
 
-    <string name="ticket_description">Sistema central de reservacionves en línea de servicios pertenecientes a entidades gubernamentales, privadas o mixtas.</string>
+    <string name="ticket_description">Sistema central de reservaciones en línea de servicios pertenecientes a entidades gubernamentales, privadas o mixtas.</string>
     <string name="jit_description">Sistema de coordinación y administración de servicios de transporte por acuredo entre usuarios y transportistas, mediante su catalogo de vehiculos.</string>
     <string name="porter_description">Aplicación diseñada para gestionar el acceso a establecimientos de manera eficiente y segura, simulando las funciones de un portero físico.</string>
+
+    <string name="whole_information">Ticket: Sistema central de reservaciones, el cual permite gestionar reservaciones en línea de servicios pertenecientes a entidades del sector estatal, cooperativo, privado o mixto, mediante su catálogo de servicios.
+Entre sus principales funcionalidades está la reservación en los días y turnos de preferencia para el usuario según las disponibilidades existentes, en caso de no existir disponibilidad puede hacer uso de la Sala de espera como otra funcionalidad dentro de Ticket. Pago del servicio por plataformas seguras. Posibilidad de reservar para diferentes beneficiarios. Cancelación de los tickets y obtención del monto pagado según los términos y condiciones de cada proveedor. Sincronizar las reservaciones con el calendario del teléfono, así como recibir notificaciones del sistema y valorar los servicios recibidos.</string>
+    <string name="crm_information">La aplicación de gestión de servicios de transporte por acuerdo es una plataforma innovadora diseñada para facilitar la coordinación y administración de servicios de transporte entre usuarios y proveedores. A través de un sistema intuitivo, los usuarios pueden solicitar, gestionar y monitorear servicios de transporte personalizados según sus necesidades específicas. La aplicación permite establecer acuerdos directos entre las partes, garantizando transparencia, eficiencia y satisfacción en cada viaje. Con un catálogo de opciones que incluye diferentes modos de transporte, esta herramienta se convierte en la solución ideal para optimizar la logística y mejorar la experiencia del usuario.</string>
+    <string name="porter_information">Portero es una aplicación diseñada para gestionar el acceso a establecimientos de manera eficiente y segura, simulando las funciones de un portero físico. Permite a los administradores controlar entradas y salidas, registrar visitantes y verificar credenciales mediante códigos QR. La plataforma ofrece un sistema de alertas en tiempo real y reportes de actividad, asegurando que solo las personas autorizadas ingresen al recinto. Con una interfaz intuitiva, Portero optimiza la seguridad y mejora la experiencia tanto para usuarios como para administradores, garantizando un entorno controlado y organizado.</string>
 
     <string name="settings">Configuración</string>
     <string name="about">Acerca de</string>

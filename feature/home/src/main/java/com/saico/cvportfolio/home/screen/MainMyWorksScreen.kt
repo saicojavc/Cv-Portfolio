@@ -2,6 +2,7 @@ package com.saico.cvportfolio.home.screen
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.gestures.Orientation
 import androidx.compose.foundation.gestures.scrollable
 import androidx.compose.foundation.layout.Arrangement
@@ -23,24 +24,32 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import com.saico.cvportfolio.navigation.routes.jit.JitRoute
+import com.saico.cvportfolio.navigation.routes.porter.PorterRoute
+import com.saico.cvportfolio.navigation.routes.tickets.TicketRoute
 import com.saico.cvportfolio.theme.DarkColors
 import com.saico.cvportfolio.theme.FontSizes
 import com.saico.cvportfolio.theme.PaddingDim
-import com.saico.cvportfolio.ui.CVPCard
-import com.saico.cvportfolio.ui.CVPIcon
-import com.saico.cvportfolio.ui.CVPText
 import com.saico.cvportfolio.ui.R
+import com.saico.cvportfolio.ui.component.CVPCard
+import com.saico.cvportfolio.ui.component.CVPIcon
+import com.saico.cvportfolio.ui.component.CVPText
 import com.saico.cvportfolio.ui.icon.CVPIcons
 
 @Composable
 fun MainMyWorksScreen(
     modifier: Modifier,
+    navigateTo: (String) -> Unit,
 ) {
-    ContentWorks()
+    ContentWorks(
+        navigateTo = navigateTo
+    )
 }
 
 @Composable
-fun ContentWorks() {
+fun ContentWorks(
+    navigateTo: (String) -> Unit,
+) {
 
     Scaffold(
         topBar = {
@@ -54,7 +63,7 @@ fun ContentWorks() {
             ) {
 
                 CVPIcon(
-                    imageVector = CVPIcons.Document,
+                    imageVector = CVPIcons.Dashboard,
                     contentDescription = "",
                     background = Color.Unspecified
                 )
@@ -77,7 +86,13 @@ fun ContentWorks() {
         ) {
 
             CVPCard(
-                modifier = Modifier.padding(PaddingDim.SMALL),
+                modifier = Modifier
+                    .padding(PaddingDim.SMALL)
+                    .clickable {
+                        navigateTo(
+                            TicketRoute.TicketScreenRoute.route
+                        )
+                    },
             ) {
                 Row(
                     modifier = Modifier
@@ -126,7 +141,13 @@ fun ContentWorks() {
                 }
             }
             CVPCard(
-                modifier = Modifier.padding(PaddingDim.SMALL),
+                modifier = Modifier
+                    .padding(PaddingDim.SMALL)
+                    .clickable {
+                        navigateTo(
+                            JitRoute.JitScreenRoute.route
+                        )
+                    },
             ) {
                 Row(
                     modifier = Modifier
@@ -175,7 +196,13 @@ fun ContentWorks() {
             }
 
             CVPCard(
-                modifier = Modifier.padding(PaddingDim.SMALL),
+                modifier = Modifier
+                    .padding(PaddingDim.SMALL)
+                    .clickable {
+                        navigateTo(
+                            PorterRoute.PorterScreenRoute.route
+                        )
+                    },
             ) {
                 Row(
                     modifier = Modifier

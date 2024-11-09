@@ -39,6 +39,7 @@ dependencies {
     implementation(project(":core:model"))
     implementation(libs.transportation.consumer)
     implementation(libs.androidx.material3.android)
+    implementation(libs.androidx.foundation.layout.android)
 
     //Core
     coreLibraryDesugaring(libs.com.android.tools.desugar)

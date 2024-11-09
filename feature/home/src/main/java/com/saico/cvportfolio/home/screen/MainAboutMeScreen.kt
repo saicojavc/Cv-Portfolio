@@ -2,7 +2,7 @@ package com.saico.cvportfolio.home.screen
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
-import androidx.compose.foundation.isSystemInDarkTheme
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -33,6 +33,9 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.constraintlayout.compose.ConstraintLayout
+import com.saico.cvportfolio.navigation.routes.jit.JitRoute
+import com.saico.cvportfolio.navigation.routes.porter.PorterRoute
+import com.saico.cvportfolio.navigation.routes.tickets.TicketRoute
 import com.saico.cvportfolio.theme.AppDim
 import com.saico.cvportfolio.theme.BorderDim
 import com.saico.cvportfolio.theme.CVPColors
@@ -40,20 +43,25 @@ import com.saico.cvportfolio.theme.DarkColors
 import com.saico.cvportfolio.theme.FontSizes
 import com.saico.cvportfolio.theme.LightColors
 import com.saico.cvportfolio.theme.PaddingDim
-import com.saico.cvportfolio.ui.CVPText
-import com.saico.cvportfolio.ui.CoilImageLoad
+import com.saico.cvportfolio.ui.component.CVPText
+import com.saico.cvportfolio.ui.component.CoilImageLoad
 import com.saico.cvportfolio.ui.R
 import kotlinx.coroutines.delay
 
 @Composable
 fun MainAboutMeScreen(
     modifier: Modifier,
+    navigateTo: (String) -> Unit,
 ) {
-    Content()
+    Content(
+        navigateTo = navigateTo
+    )
 }
 
 @Composable
-fun Content() {
+fun Content(
+    navigateTo: (String) -> Unit,
+) {
 
     val items = listOf(R.drawable.dev, R.drawable.dev1, R.drawable.dev3)
     val itemsText = listOf(
@@ -332,6 +340,11 @@ fun Content() {
                             contentDescription = "",
                             contentScale = ContentScale.Crop,
                             modifier = Modifier
+                                .clickable {
+                                    navigateTo(
+                                        TicketRoute.TicketScreenRoute.route
+                                    )
+                                }
                                 .padding(PaddingDim.SMALL)
                                 .size(100.dp)
                                 .background(
@@ -348,6 +361,11 @@ fun Content() {
                             contentDescription = "",
                             contentScale = ContentScale.Crop,
                             modifier = Modifier
+                                .clickable {
+                                    navigateTo(
+                                        JitRoute.JitScreenRoute.route
+                                    )
+                                }
                                 .padding(PaddingDim.SMALL)
                                 .size(100.dp)
                                 .background(
@@ -363,6 +381,11 @@ fun Content() {
                             contentDescription = "",
                             contentScale = ContentScale.Crop,
                             modifier = Modifier
+                                .clickable {
+                                    navigateTo(
+                                        PorterRoute.PorterScreenRoute.route
+                                    )
+                                }
                                 .padding(PaddingDim.SMALL)
                                 .size(100.dp)
                                 .background(

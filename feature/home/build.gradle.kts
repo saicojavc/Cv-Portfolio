@@ -2,6 +2,9 @@ plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+    alias(libs.plugins.com.dagger.hilt)
+    id("com.google.devtools.ksp")
+    id("kotlin-parcelize")
 }
 
 android {
@@ -35,17 +38,25 @@ android {
 
 dependencies {
 
-    implementation(libs.androidx.core.ktx)
+    implementation(project(":core:ui"))
+
+
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
     implementation(libs.androidx.navigation.common.ktx)
-    implementation(project(":core:ui"))
     implementation(libs.androidx.material3.android)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     implementation(libs.androidx.activity.compose)
     implementation(platform(libs.androidx.compose.bom))
+
+    //Core
+    implementation(libs.androidx.core.ktx)
+    coreLibraryDesugaring(libs.com.android.tools.desugar)
+    //hilt
+    implementation(libs.com.google.dagger.hilt.android)
+    ksp(libs.com.google.dagger.hilt.compiler)
 
     implementation(libs.androidx.constraintlayout.compose)
 }

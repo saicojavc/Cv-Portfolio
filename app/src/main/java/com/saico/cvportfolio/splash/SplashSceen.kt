@@ -15,7 +15,7 @@ import androidx.constraintlayout.compose.ConstraintLayout
 import com.saico.cvportfolio.ui.R
 import com.saico.cvportfolio.theme.AppDim
 import com.saico.cvportfolio.theme.PaddingDim
-import com.saico.cvportfolio.ui.CVPTextTitle
+import com.saico.cvportfolio.ui.component.CVPTextTitle
 
 @Composable
 fun SplashScreen() {

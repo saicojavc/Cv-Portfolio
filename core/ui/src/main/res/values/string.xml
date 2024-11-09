@@ -12,7 +12,7 @@
     <string name="curriculum">Curriculum</string>
 
     <string name="portfolio">Portfolio</string>
-
+    <string name="gallery">Gallery</string>
     <string name="ticket_app">Ticket</string>
     <string name="jit_app">JIT</string>
     <string name="porter_app">Portero</string>
@@ -28,7 +28,10 @@
 
     <string name="mesage4">My main focus is to create intuitive and efficient applications using Kotlin and Jetpack Compose, tools that allow me to deliver exceptional user experiences.</string>
 
-
+    <string name="whole_information">Ticket: Central reservation system, which allows to manage online reservations of services belonging to state, cooperative, private or mixed sector entities, through its service catalog.
+Among its main functionalities is the reservation in the days and shifts of preference for the user according to the existing availabilities, in case there is no availability, the waiting room can be used as another functionality within Ticket. Payment of the service through secure platforms. Possibility of booking for different beneficiaries. Cancellation of tickets and obtaining the amount paid according to the terms and conditions of each provider. Synchronize reservations with the phone calendar, as well as receive notifications from the system and rate the services received.</string>
+    <string name="crm_information">The transportation services management application by agreement is an innovative platform designed to facilitate the coordination and administration of transportation services between users and providers. Through an intuitive system, users can request, manage, and monitor personalized transportation services according to their specific needs. The application allows for direct agreements between the parties, ensuring transparency, efficiency, and satisfaction in every trip. With a catalog of options that includes different modes of transport, this tool becomes the ideal solution to optimize logistics and enhance the user experience</string>
+    <string name="porter_information">Portero is an application designed to manage access to establishments efficiently and securely, simulating the functions of a physical doorman. It allows administrators to control entries and exits, register visitors, and verify credentials using QR codes. The platform offers a real-time alert system and activity reports, ensuring that only authorized individuals enter the premises. With an intuitive interface, Portero optimizes security and enhances the experience for both users and administrators, guaranteeing a controlled and organized environment.</string>
 
     <!--Greetings-->
     <string name="welcome">Welcome</string>

@@ -1,4 +1,4 @@
-package com.saico.cvportfolio.ui
+package com.saico.cvportfolio.ui.component
 
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.material3.LocalTextStyle
