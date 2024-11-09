@@ -13,6 +13,74 @@
     <string name="curriculum">Curriculum</string>
     <string name="route">Ruta</string>
 
+    <string name="summary">Resumen</string>
+    <string name="summary_description">Soy un profesional calificado como Ingeniero en Informática por la Universidad Central Marta Abreu de Las Villas, Cuba, y cuento con una destacada trayectoria en el campo de la informática y el desarrollo de software. He trabajado en diversas áreas de la ingeniería informática, incluyendo el diseño de sistemas y la implementación de soluciones tecnológicas. He tenido la oportunidad de participar en todas las etapas del ciclo de vida del desarrollo de software, desde la conceptualización y planificación hasta la implementación y mantenimiento. He dirigido, trabajado y colaborado en proyectos de desarrollo de aplicaciones y optimización de sistemas informáticos.</string>
+
+    <string name="skills">Habilidades</string>
+    <string name="skills1"> • Dominio de Kotlin</string>
+    <string name="skills2"> • Experiencia con Jetpack Compose</string>
+    <string name="skills3"> • Uso de Retrofit</string>
+    <string name="skills4"> • Gestión de Bases de Datos con Room</string>
+     <string name="skills5"> • Inyección de Dependencias con Dagger Hilt</string>
+    <string name="skills6"> • Comprensión profunda de los principios de diseño y arquitectura del software, así como patrones como MVVM (Model-View-ViewModel), MVC (Model-View-Controller) y Clean Architecture.</string>
+    <string name="skills7"> • Habilidad para crear documentación técnica clara</string>
+    <string name="skills8"> • Dominio de Software(Android Studio, Visual Studio Code)</string>
+    <string name="skills9"> • Dominio de metodologías de desarrollo agil (SCRUM)</string>
+    <string name="skills10"> • Uso de sistemas de control de verciones(GitHub, GitLab)</string>
+
+    <string name="experience">Experiencia</string>
+
+
+    <string name="experience_android_developer">
+        12/2023 - Actualidad: Desarrollador Android en XETID (Empresa de Tecnologías Informáticas).
+        • Diseño y desarrollo de aplicaciones móviles para Android usando Kotlin y Jetpack Compose.
+        • Colaboración con equipos de UX/UI para interfaces intuitivas.
+        • Integración de APIs y gestión de datos con REST y JSON.
+        • Ejecución de pruebas unitarias y depuración del código.
+        • Mantenimiento y actualización de aplicaciones existentes, implementando nuevas características.
+        • Documentación técnica de procesos y desarrollo.
+        • Participación activa en reuniones de planificación y revisión, promoviendo la mejora continua.
+    </string>
+
+    <string name="experience_intern_web_developer">
+
+        2022 - 2023: Becario Desarrollador Web Front-End en XETID (Empresa de Tecnologías Informáticas).
+        • Participación en el diseño y desarrollo de aplicaciones web utilizando Vue.js.
+        • Colaboración con equipos de diseño para crear interfaces de usuario atractivas y funcionales.
+        • Implementación de componentes reutilizables y optimización del rendimiento de las aplicaciones.
+        • Integración de servicios RESTful y manejo de datos mediante Axios.
+        • Ejecución de pruebas y depuración para garantizar la calidad del código.
+        • Documentación de procesos y desarrollo para facilitar la comprensión del proyecto.
+
+    </string>
+
+    <string name="experience_gtce">
+
+    2021 - 2023: Miembro Activo del Grupo de Trabajo Estudiantil (GTCE) en el Laboratorio de Tecnologías de la Programación y Sistemas de Información del Centro de Investigaciones Iinformáticas (CII) de la  Universidad Central "Marta Abreu" de las Villas.
+    • Participación en proyectos sobre decodificadores de señal digital terrestre y Sistemas de Información Geográfica.
+    • Colaboración con un equipo multidisciplinario para el desarrollo e implementación de soluciones tecnológicas.
+    • Investigación y análisis de tecnologías emergentes aplicadas a la programación y sistemas de información.
+    • Apoyo en la realización de pruebas y validación de prototipos desarrollados en el laboratorio.
+    • Contribución a la documentación técnica y presentación de resultados en seminarios académicos.
+
+</string>
+
+    <string name="education_and_training">Educación y Capacitación</string>
+
+    <string name="education">
+        09/2018 - 10/2023
+        • Ingeniería Informática
+        • Unicersidad Central "Marta Abreu" de Las Villas, Villa Clara, Cuba
+
+</string>
+
+    <string name="honors">Actividades y Honores</string>
+
+    <string name="coauthor_article">
+    • Autor del artículo "TRANSFORMACIÓN DIGITAL PARA LA GESTIÓN DE PROCESOS" presentado en el II Simposio Internacional "GENERACIÓN Y TRANSFERENCIA DE CONOCIMIENTO PARA LA TRANSFORMACIÓN DIGITAL" en la IV Convención Científica Internacional UCLV 2023.
+</string>
+
+
     <string name="portfolio">Portafolio</string>
 
     <string name="gallery">Galeria</string>

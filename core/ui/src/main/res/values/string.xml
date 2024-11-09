@@ -11,11 +11,82 @@
     <string name="android_developer">Android Developer</string>
     <string name="curriculum">Curriculum</string>
 
+    <string name="summary">Summary</string>
+    <string name="summary_description">I am a qualified professional with a degree in Computer Engineering from the Central University Marta Abreu of Las Villas, Cuba, and I have a distinguished track record in the field of computer science and software development. I have worked in various areas of computer engineering, including system design and the implementation of technological solutions. I have had the opportunity to participate in all stages of the software development life cycle, from conceptualization and planning to implementation and maintenance. I have led, worked on, and collaborated in application development projects and optimization of IT systems.</string>
+
+
+    <string name="skills">Skills</string>
+
+    <string name="skills1"> • Proficiency in Kotlin</string>
+    <string name="skills2"> • Experience with Jetpack Compose</string>
+    <string name="skills3"> • Use of Retrofit</string>
+    <string name="skills4"> • Database Management with Room</string>
+    <string name="skills5"> • Dependency Injection with Dagger Hilt</string>
+    <string name="skills6"> • Deep understanding of software design principles and architecture, as well as patterns like MVVM (Model-View-ViewModel), MVC (Model-View-Controller), and Clean Architecture.</string>
+    <string name="skills7"> • Ability to create clear technical documentation</string>
+    <string name="skills8"> • Proficiency in Software (Android Studio, Visual Studio Code)</string>
+    <string name="skills9"> • Mastery of Agile development methodologies (SCRUM)</string>
+    <string name="skills10"> • Use of version control systems (GitHub, GitLab)</string>
+
+    <string name="experience">Experience</string>
+
+    <string name="experience_android_developer">
+
+    12/2023 - Present: Android Developer at XETID (IT Technologies Company).
+    • Design and development of mobile applications for Android using Kotlin and Jetpack Compose.
+    • Collaboration with UX/UI teams to create intuitive interfaces.
+    • Integration of APIs and data management using REST and JSON.
+    • Execution of unit tests and code debugging.
+    • Maintenance and updates of existing applications, implementing new features as needed.
+    • Technical documentation of processes and development.
+    • Active participation in planning and review meetings, promoting continuous improvement.
+
+</string>
+
+
+    <string name="experience_intern_web_developer">
+
+        2022 - 2023: Intern Front-End Web Developer at  XETID (IT Technologies Company).
+        • Participation in the design and development of web applications using Vue.js.
+        • Collaboration with design teams to create attractive and functional user interfaces.
+        • Implementation of reusable components and optimization of application performance.
+        • Integration of RESTful services and data handling using Axios.
+        • Execution of tests and debugging to ensure code quality.
+        • Documentation of processes and development to facilitate project understanding.
+
+    </string>
+
+    <string name="experience_gtce">
+
+        2021 - 2023: Active Member of the Student Work Group (GTCE) at the Programming Technologies and Information Systems Laboratory of the Computer Science Research Center (CII) at Central University "Marta Abreu" of Las Villas.
+   • Participation in projects on digital terrestrial signal decoders and Geographic Information Systems.
+    • Collaboration with a multidisciplinary team for the development and implementation of technological solutions.
+    • Research and analysis of emerging technologies applied to programming and information systems.
+    • Support in conducting tests and validation of prototypes developed in the laboratory.
+    • Contribution to technical documentation and presentation of results in academic seminars.
+
+</string>
+
+    <string name="education_and_training">Education And Training</string>
+
+    <string name="education">
+    09/2018 - 10/2023
+    • Computer Engineering
+    • Central University "Marta Abreu" of Las Villas, Villa Clara, Cuba
+</string>
+
+    <string name="honors">Activities and Honors</string>
+
+    <string name="coauthor_article">
+    • Author of the article "DIGITAL TRANSFORMATION FOR PROCESS MANAGEMENT" presented at the II International Symposium "GENERATION AND TRANSFER OF KNOWLEDGE FOR DIGITAL TRANSFORMATION" at the IV International Scientific Convention UCLV 2023.
+</string>
+
+
     <string name="portfolio">Portfolio</string>
     <string name="gallery">Gallery</string>
     <string name="ticket_app">Ticket</string>
     <string name="jit_app">JIT</string>
-    <string name="porter_app">Portero</string>
+    <string name="porter_app">Porter</string>
 
     <string name="ticket_description">Central online reservation system for services belonging to governmental, private, or mixed entities.</string>
     <string name="jit_description">Coordination and management system for transportation services by agreement between users and transport providers, through its vehicle catalog. </string>

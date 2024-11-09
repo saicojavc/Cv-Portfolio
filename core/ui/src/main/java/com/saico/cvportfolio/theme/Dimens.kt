@@ -70,7 +70,7 @@ object AppDim {
     val LIST_ICONS_SIZE = 34.dp
     val SIGNATURE_PAD_HEIGHT = 400.dp
     val SHEET_HEIGHT = 400.dp
-    val ROW_DATA_TIME_SIZE = 200.dp
+    val ROW_DATA_TIME_SIZE = 150.dp
     val LAYOUT_DIMEN = 220.dp
     val BAR_DIMEN = 120.dp
 }
