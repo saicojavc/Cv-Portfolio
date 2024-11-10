@@ -94,7 +94,7 @@
 
 
     <string name="ticket_description">Sistema central de reservaciones en línea de servicios pertenecientes a entidades gubernamentales, privadas o mixtas.</string>
-    <string name="jit_description">Sistema de coordinación y administración de servicios de transporte por acuredo entre usuarios y transportistas, mediante su catalogo de vehiculos.</string>
+    <string name="jit_description">Sistema de coordinación y administración de servicios de transporte por acuerdo entre usuarios y transportistas, mediante su catalogo de vehiculos.</string>
     <string name="porter_description">Aplicación diseñada para gestionar el acceso a establecimientos de manera eficiente y segura, simulando las funciones de un portero físico.</string>
 
     <string name="whole_information">Ticket: Sistema central de reservaciones, el cual permite gestionar reservaciones en línea de servicios pertenecientes a entidades del sector estatal, cooperativo, privado o mixto, mediante su catálogo de servicios.
