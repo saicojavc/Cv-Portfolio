@@ -127,6 +127,7 @@ Among its main functionalities is the reservation in the days and shifts of pref
     <string name="about">About</string>
     <string name="about_me">About me</string>
     <string name="search">Search</string>
+    <string name="search_me">Look for me in</string>
     <string name="create_offer_screen" translatable="false">Create Offer</string>
     <string name="beneficiary_signature_screen">Beneficiary Signature</string>
     <string name="remittent_signature_screen">Remittent Signature</string>

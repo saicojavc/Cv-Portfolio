@@ -13,6 +13,7 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.pager.HorizontalPager
 import androidx.compose.foundation.pager.rememberPagerState
@@ -81,12 +82,12 @@ fun Content(
         }
     }
 
-
-    Column(
-        modifier = Modifier
-            .fillMaxSize(),
-        horizontalAlignment = Alignment.CenterHorizontally
-    ) {
+LazyColumn(
+    modifier = Modifier
+        .fillMaxSize(),
+    horizontalAlignment = Alignment.CenterHorizontally
+) {
+    item {
         ConstraintLayout(
             modifier = Modifier.fillMaxSize()
         ) {
@@ -226,24 +227,24 @@ fun Content(
                     )
                 }
             }
+            //------------------------------
+
+        }
+        Column(
+            modifier = Modifier.padding(PaddingDim.SMALL),
+            verticalArrangement = Arrangement.Center
+        ) {
             Row(
                 verticalAlignment = Alignment.CenterVertically,
                 horizontalArrangement = Arrangement.SpaceBetween,
                 modifier = Modifier
                     .fillMaxWidth()
                     .padding(
-                        bottom = PaddingDim.GIGANT,
                         start = PaddingDim.SMALL,
                         end = PaddingDim.SMALL
                     )
                     .shadow(3.dp, shape = RoundedCornerShape(PaddingDim.EXTRA_LARGE))
                     .background(color = /*if (isSystemInDarkTheme()) DarkColors.OnSecondary else */CVPColors().white)
-                    .constrainAs(description) {
-                        top.linkTo(parent.top)
-                        bottom.linkTo(parent.bottom)
-                        start.linkTo(parent.start)
-                        end.linkTo(parent.end)
-                    }
             ) {
                 CVPText(
                     modifier = Modifier
@@ -260,13 +261,13 @@ fun Content(
                 beyondViewportPageCount = items.size,
                 modifier = Modifier
                     .fillMaxWidth()
-                    .padding(top = PaddingDim.ROW_HEIGHT)
-                    .constrainAs(bottomCard) {
-                        top.linkTo(description.bottom)
-                        bottom.linkTo(description.bottom)
-                        start.linkTo(parent.start)
-                        end.linkTo(parent.end)
-                    }
+                    .padding(top = PaddingDim.MEDIUM, bottom = PaddingDim.VERY_LARGE)
+//                    .constrainAs(bottomCard) {
+//                        top.linkTo(description.bottom)
+//                        bottom.linkTo(description.bottom)
+//                        start.linkTo(parent.start)
+//                        end.linkTo(parent.end)
+//                    }
             ) { pages ->
                 Row(
                     verticalAlignment = Alignment.CenterVertically,
@@ -316,12 +317,12 @@ fun Content(
                 modifier = Modifier
                     .padding(
                         bottom = 80.dp
-                    )
-                    .constrainAs(proyects) {
-                        bottom.linkTo(parent.bottom)
-                        start.linkTo(parent.start)
-                        end.linkTo(parent.end)
-                    },
+                    ),
+//                    .constrainAs(proyects) {
+//                        bottom.linkTo(parent.bottom)
+//                        start.linkTo(parent.start)
+//                        end.linkTo(parent.end)
+//                    },
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
 
@@ -401,7 +402,13 @@ fun Content(
 
         }
     }
-
-
+}
+//    Column(
+//        modifier = Modifier
+//            .fillMaxSize(),
+//        horizontalAlignment = Alignment.CenterHorizontally
+//    ) {
+//
+//    }
 }
 

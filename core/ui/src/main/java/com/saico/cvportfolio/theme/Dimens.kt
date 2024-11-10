@@ -17,6 +17,7 @@ object PaddingDim {
     val VERY_HUGE = 46.dp
     val EXTRA_HUGE = 60.dp
     val GIGANT = 74.dp
+    val VERY_GIGANT = 100.dp
 
 }
 
