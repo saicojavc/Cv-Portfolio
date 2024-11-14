@@ -4,7 +4,6 @@ import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.runtime.Composable
@@ -31,7 +30,7 @@ fun CurriculumTopBar() {
     ConstraintLayout(
         modifier = Modifier
             .height(AppDim.ROW_DATA_TIME_SIZE)
-            .background(color = Color(android.graphics.Color.parseColor("#FF9D1ED4")))
+            .background(color = Color(0xFF2DE82D))
     ) {
         val (arco, topImg, title) = createRefs()
 

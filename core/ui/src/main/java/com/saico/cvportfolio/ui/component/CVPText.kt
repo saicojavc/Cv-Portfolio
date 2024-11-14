@@ -46,6 +46,7 @@ fun CVPTextTitle(
     CVPText(
         text = text, modifier = modifier,
         fontSize = FontSizes.TITLE_BIG,
-        fontWeight = FontWeight.SemiBold
+        fontWeight = FontWeight.SemiBold,
+        color = Color.White
     )
 }

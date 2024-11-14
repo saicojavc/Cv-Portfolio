@@ -5,8 +5,11 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.ColorFilter
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
@@ -25,10 +28,10 @@ fun SplashScreen() {
     ) {
         val (others, bottomImg, topImg) = createRefs()
         Image(
-            painterResource(id = R.drawable.men),
+            painterResource(id = com.saico.cvportfolio.R.drawable.ic_launcher_foreground),
             contentDescription = "logo",
             modifier = Modifier
-                .size(AppDim.SIGNATURE_PAD_HEIGHT)
+                .size(500.dp)
                 .padding(top = PaddingDim.GIGANT)
                 .constrainAs(topImg) {
                     start.linkTo(parent.start)
@@ -47,7 +50,8 @@ fun SplashScreen() {
                     end.linkTo(parent.end)
                     bottom.linkTo(parent.bottom)
                 },
-            contentScale = ContentScale.Crop
+            contentScale = ContentScale.Crop,
+            colorFilter = ColorFilter.tint( Color(0xFF2DE82D))
 
         )
 

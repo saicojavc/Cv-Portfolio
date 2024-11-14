@@ -85,12 +85,11 @@ fun ContactContent(
             ) {
 
                 Image(
-                    painter = painterResource(id = R.drawable.notification),
+                    painter = painterResource(id = R.drawable.undraw_personal_email_re_4lx7),
                     contentDescription = "",
-                    contentScale = ContentScale.Crop,
                     modifier = Modifier
-                        .height(120.dp)
-                        .width(120.dp)
+                        .height(200.dp)
+                        .width(220.dp)
                         .clip(shape = RoundedCornerShape(PaddingDim.VERY_LARGE))
                 )
 
@@ -102,7 +101,6 @@ fun ContactContent(
                 )
             }
 
-            Spacer(modifier = Modifier.padding(PaddingDim.MEDIUM))
 
             Column(
                 modifier = Modifier.fillMaxWidth(),
@@ -120,22 +118,22 @@ fun ContactContent(
                         unfocusedContainerColor = Color.White, // Igual que focusedContainerColor
                         disabledContainerColor = Color.LightGray,
                         errorContainerColor = Color(0xFFFFE0E0), // Light red for error background
-                        cursorColor = Color.Blue,
+                        cursorColor = Color(0xFF2DE82D),
                         errorCursorColor = Color.Red,
                         textSelectionColors = TextSelectionColors(
-                            handleColor = Color.Blue,
+                            handleColor = Color(0xFF2DE82D),
                             backgroundColor = Color(0xFFB3D4FC) // Light blue selection background
                         ),
-                        focusedIndicatorColor = Color.Blue,
-                        unfocusedIndicatorColor = Color.Blue, // Igual que focusedIndicatorColor
+                        focusedIndicatorColor = Color(0xFF2DE82D),
+                        unfocusedIndicatorColor = Color(0xFF2DE82D), // Igual que focusedIndicatorColor
                         disabledIndicatorColor = Color.LightGray,
                         errorIndicatorColor = Color.Red,
-                        focusedLeadingIconColor = Color.Blue,
-                        unfocusedLeadingIconColor = Color.Blue, // Igual que focusedLeadingIconColor
+                        focusedLeadingIconColor = Color(0xFF2DE82D),
+                        unfocusedLeadingIconColor = Color(0xFF2DE82D), // Igual que focusedLeadingIconColor
                         disabledLeadingIconColor = Color.LightGray,
                         errorLeadingIconColor = Color.Red,
-                        focusedTrailingIconColor = Color.Blue,
-                        unfocusedTrailingIconColor = Color.Blue, // Igual que focusedTrailingIconColor
+                        focusedTrailingIconColor = Color(0xFF2DE82D),
+                        unfocusedTrailingIconColor = Color(0xFF2DE82D), // Igual que focusedTrailingIconColor
                         disabledTrailingIconColor = Color.LightGray,
                         errorTrailingIconColor = Color.Red,
                         focusedLabelColor = Color.Black,
@@ -176,22 +174,22 @@ fun ContactContent(
                         unfocusedContainerColor = Color.White, // Igual que focusedContainerColor
                         disabledContainerColor = Color.LightGray,
                         errorContainerColor = Color(0xFFFFE0E0), // Light red for error background
-                        cursorColor = Color.Blue,
+                        cursorColor = Color(0xFF2DE82D),
                         errorCursorColor = Color.Red,
                         textSelectionColors = TextSelectionColors(
-                            handleColor = Color.Blue,
+                            handleColor = Color(0xFF2DE82D),
                             backgroundColor = Color(0xFFB3D4FC) // Light blue selection background
                         ),
-                        focusedIndicatorColor = Color.Blue,
-                        unfocusedIndicatorColor = Color.Blue, // Igual que focusedIndicatorColor
+                        focusedIndicatorColor = Color(0xFF2DE82D),
+                        unfocusedIndicatorColor = Color(0xFF2DE82D), // Igual que focusedIndicatorColor
                         disabledIndicatorColor = Color.LightGray,
                         errorIndicatorColor = Color.Red,
-                        focusedLeadingIconColor = Color.Blue,
-                        unfocusedLeadingIconColor = Color.Blue, // Igual que focusedLeadingIconColor
+                        focusedLeadingIconColor = Color(0xFF2DE82D),
+                        unfocusedLeadingIconColor = Color(0xFF2DE82D), // Igual que focusedLeadingIconColor
                         disabledLeadingIconColor = Color.LightGray,
                         errorLeadingIconColor = Color.Red,
-                        focusedTrailingIconColor = Color.Blue,
-                        unfocusedTrailingIconColor = Color.Blue, // Igual que focusedTrailingIconColor
+                        focusedTrailingIconColor = Color(0xFF2DE82D),
+                        unfocusedTrailingIconColor = Color(0xFF2DE82D), // Igual que focusedTrailingIconColor
                         disabledTrailingIconColor = Color.LightGray,
                         errorTrailingIconColor = Color.Red,
                         focusedLabelColor = Color.Black,
