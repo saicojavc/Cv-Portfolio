@@ -301,7 +301,7 @@ fun CVPTextArea(
                     onValueChange(it)
                 }
             },
-            modifier = Modifier.fillMaxWidth().height(200.dp),
+            modifier = Modifier.fillMaxWidth().height(150.dp),
             enabled = enabled,
             singleLine = false, // Permitir múltiples líneas
             maxLines = maxLines,
